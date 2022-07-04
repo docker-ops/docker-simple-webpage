@@ -1,6 +1,6 @@
 #!/bin/sh
 ACCOUNT_ID="985776909193"
-AWS_DEFAULT_REGION="ap-south-1"
+AWS_DEFAULT_REGION="us-east-1"
 REPOSITORY_URI="$ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com"
 IMAGE_REPO_NAME="demo-nginx"
 docker pull nginx:latest
